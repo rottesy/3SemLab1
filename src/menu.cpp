@@ -35,7 +35,7 @@ void handleConstructorsMenu(Matrix& matrix) {
 
         switch (choice) {
             case 1: {
-                matrix = Matrix(); // Используем конструктор по умолчанию
+                matrix = Matrix();
                 cout << "Default constructor used successfully!" << "\n";
                 return;
             }
