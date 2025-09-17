@@ -98,7 +98,6 @@ Matrix::~Matrix()
         }
         delete[] data;
         data = nullptr;
-        cout << "Memory cleaned up" << "\n";
     }
 }
 
